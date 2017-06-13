@@ -56,6 +56,9 @@ npm install --save-dev mocha
 此時會產生(passes:,failures:,duration:)等變數在html上面，如下圖
 ![Imgur](http://i.imgur.com/TYnfh6c.png)
 
+## ch05-2
+增加測試網頁(public/qa/tests-about.js)
+
 
 ### javascript測試
 
