@@ -14,3 +14,8 @@ npm install --save express3-handlebars
 * 若已有package.json裡面相關的相依package
  只有npm install將會自動安裝需要package
 
+### 說明
+
+使用exports全或變數方式
+如果你想要讓某個東西可以在模組外被看到，就必順加到exports
+
