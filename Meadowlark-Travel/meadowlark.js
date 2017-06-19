@@ -42,7 +42,7 @@ app.get('/tours/request-group-rate',function(req, res){4
 app.get('/headers',function(req, res){4
     res.set('Content-Type','text/plain');
     var s='';
-    for(var name in req.headers ) s += name + ':' + req.header[name] + '\n';
+    for(var name in req.headers ) s += name + ':' + req.headers[name] + '\n';
         res.send(s);
 });
 
