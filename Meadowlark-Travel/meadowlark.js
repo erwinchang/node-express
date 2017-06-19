@@ -39,6 +39,13 @@ app.get('/tours/request-group-rate',function(req, res){4
     res.render('tours/request-group-rate');
 });
 
+app.get('/headers',function(req, res){4
+    res.set('Content-Type','text/plain');
+    var s='';
+    for(var name in req.headers ) s += name + ':' + req.header[name] + '\n';
+        res.send(s);
+});
+
 app.use(function(req, res){
     res.status(404);
     res.render('404');

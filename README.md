@@ -74,4 +74,21 @@ node meadowlark.js
 2. 再帶mocha
 mocha -u tdd -R spec qa/tests-crosspage.js 2>/dev/null
 
+-----------
+
+## URL
+
+* url 說明
+| 協定    | 主機名稱          | 路徑    | 查訊字串  | 片段 |
+|:-------|:-----------------|:-------|:--------|:----|
+|http:// | localhost:3000   | /about | ?test=1 |#history|
+
+* 查訊字串
+    * 以問號開始(?)
+    * 為名稱與值配對集合
+
+* 片段(fragment)
+    * 不會被傳至伺服器，它完全是供瀏覽器使用
+
+
 
