@@ -59,12 +59,19 @@ npm install --save-dev mocha
 ## ch05-2
 增加測試網頁(public/qa/tests-about.js)
 
-
-### javascript測試
+### ch05-3 , javascript測試
 
 * 綱頁測試
   mocha
 
 * 跨頁測試
   zombie.js
+
+* 測試流程
+1. 先帶起node
+node meadowlark.js
+
+2. 再帶mocha
+mocha -u tdd -R spec qa/tests-crosspage.js 2>/dev/null
+
 
